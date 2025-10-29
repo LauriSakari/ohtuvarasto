@@ -71,7 +71,7 @@ class TestVarasto(unittest.TestCase):
 
         self.assertEqual(vastaus, "saldo = 8, vielä tilaa 2")
         
-
+    #Negatiiviset alkuarvot konstruktorille
     def test_konstruktori_luo_tyhjan_varaston_negatiivisena(self):
         varasto = Varasto(-10)
         self.assertAlmostEqual(varasto.tilavuus, 0)
