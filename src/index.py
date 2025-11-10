@@ -6,6 +6,7 @@ def main():
     olutta = Varasto(100.0, 20.2)
 
     print("Luonnin jälkeen:")
+    print('Luonnin jälkeen:')
     print(f"Mehuvarasto: {mehua}")
     print(f"Olutvarasto: {olutta}")
 
